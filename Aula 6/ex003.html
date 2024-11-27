@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro programa...</title>
+    <style>
+        /*comentário em CSS */
+        body {
+            background-color: lightblue;
+            color: black;
+            font: normal 20pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <!--comentário em html-->
+    <h1>Olá, mundo!</h1>
+        <p>Já me livrei da maldição!</p>
+
+    <script>
+        // Number.parseInt(n) = conversão para num inteiros
+        // Number.parseFloat(n) = Conversão para num reais
+        // String(n) ou n.toString = Conversão de num para String
+        var n1 = Number(window.prompt('Digite um número: ')) // String
+        var n2 = Number(window.prompt('Digite outro número: ')) // String
+        var s = n1 + n2
+        alert(`A soma entre ${n1} e ${n2} é igual a ${s}`)
+        // alert('A soma dos valores é ' + String(s)) // Concatenação
+        // (number + number) para adição
+        // (string + string) para concatenação
+        // `Eu estou apredendo ${s}` -> Template string (com (${}) place holders)
+    </script>
+</body>
+</html>
